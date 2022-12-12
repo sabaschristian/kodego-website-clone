@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import 'normalize.css';
+@import "./base/_global";
+@import "./base/_variables";
+@import "./modules/_container";
+@import "./modules/_header";
+@import "./modules/_banner";
+@import "./modules/_partners";
+
+img {
+  width: 188px;
+  cursor: pointer;
+  margin-top: 4px;
+}

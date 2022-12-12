@@ -1,0 +1,22 @@
+.partners {
+
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__title{
+        position: static;
+        width: 100%;
+
+        text-align: center;
+
+        font-weight: 600;
+        font-size: 28px;
+        color: $mainBlue;
+
+        padding: 0px 15px;
+
+        margin-bottom: 32px;
+    }
+}

@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+  }
+  
+  a, a:active {
+    text-decoration: none;
+    color: inherit;
+  }

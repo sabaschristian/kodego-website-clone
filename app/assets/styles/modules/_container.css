@@ -1,0 +1,9 @@
+.container {
+    width: 90.5%;
+    margin: auto;
+    font-weight: 700;
+
+    &--padded {
+      padding: 1.7rem;
+    }
+  }
