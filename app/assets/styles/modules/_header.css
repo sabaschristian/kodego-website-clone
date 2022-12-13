@@ -1,45 +1,19 @@
-.header {
-
-    @media (max-width: 1440px) {
-        .container {
-          width: 85.5%;
-          max-width: 85.5%;
-          min-width: 85.5%;
+@media (max-width: 1440px) { 
+    .header {
+        img {
+            vertical-align: middle;
+            border-style: none;
         }
-      
-        &--padded {
-          padding: 24px;
+
+        &__user-links {
+            float: right;
         }
-      }
-      
-    &__nav {
-        float: right;
-    }
 
-    & li {
-        display: inline-block;
-        margin-right: 1em;
-        cursor: pointer;
-        color: $mainBlue;
-    }
-
-    &__user-links {
-        float: right;
-        margin: 0 16px;
-        padding: 16px;
-    }
-
-    &__sign-in {
-        cursor: pointer;
-        color: $mainGreen !important;
-        margin: inherit;
-    }
-
-    &__apply {
-        padding: 1.2rem;
-        border-radius: 4px;
-        background-color: $mainGreen;
-        color: $mainWhite !important;
-        margin: inherit;
+        &__nav {
+            text-decoration: none;
+            list-style: none;
+            display: inline-block;
+            vertical-align: middle;
+        }
     }
 }

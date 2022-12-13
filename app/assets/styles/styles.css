@@ -7,9 +7,3 @@
 @import "./modules/_hero";
 @import "./modules/_partners";
 @import "./modules/_btn";
-
-img {
-  width: 188px;
-  cursor: pointer;
-  margin-top: 4px;
-}

@@ -1,21 +1,17 @@
 @media (max-width: 1440px) {
   .container {
+
     width: 85.5%;
     max-width: 85.5%;
     min-width: 85.5%;
   }
-
-  &--padded {
-    padding: 24px;
-  }
 }
 
 .container {
+    display: flex;
+
     width: 90.5%;
     margin: auto;
     font-weight: 700;
-
-    &--padded {
-      padding: 1.7rem;
-    }
+    padding: 24px;
   }
