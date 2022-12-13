@@ -1,4 +1,17 @@
 .header {
+
+    @media (max-width: 1440px) {
+        .container {
+          width: 85.5%;
+          max-width: 85.5%;
+          min-width: 85.5%;
+        }
+      
+        &--padded {
+          padding: 24px;
+        }
+      }
+      
     &__nav {
         float: right;
     }
