@@ -1,17 +1,12 @@
-@media (max-width: 1440px) {
-  .container {
-
-    width: 85.5%;
-    max-width: 85.5%;
-    min-width: 85.5%;
-  }
-}
-
 .container {
-    display: flex;
-
-    width: 90.5%;
-    margin: auto;
-    font-weight: 700;
-    padding: 24px;
-  }
+  display: flex;
+  width: 90%;
+  max-width: 90%;
+  min-width: 90%;
+  align-items: center;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  padding: 24px;
+}

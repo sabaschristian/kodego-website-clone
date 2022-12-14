@@ -1,19 +1,64 @@
-@media (max-width: 1440px) { 
-    .header {
-        img {
-            vertical-align: middle;
-            border-style: none;
-        }
+.header {
 
-        &__user-links {
-            float: right;
-        }
+    position: sticky !important;
+    box-shadow: 0 8px 24px 0 rgb(0 0 0 / 15%) !important;
 
-        &__nav {
-            text-decoration: none;
-            list-style: none;
-            display: inline-block;
-            vertical-align: middle;
-        }
+    .logo {
+        width: 188px;
     }
+
+    button {
+        border: none;
+        width: 100%;
+        padding: 0;
+        background: none;
+        display: none;
+    }
+
+    button > .img-fluid {
+        float: right;
+    }
+
+    &__nav {
+        display: flex;
+    }
+
+    .nav_navbar {
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+    }
+
+    .nav-links {
+        display: inline-block;
+        padding: 8px;
+        margin: 0;
+        color: $mainBlue;
+    }
+    li {
+        display: inline-block;
+    }
+
+    &__sign-in, &__apply {
+        margin: 0 16px;
+        padding: 16px;
+    }
+
+    &__auth-links{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__sign-in {
+        color: $mainGreen;
+    }
+
+    &__apply {
+        color: $mainWhite;
+        background: $mainGreen;
+        border-radius: 0.3em;
+    }
+
 }

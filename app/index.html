@@ -4,32 +4,37 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
     <title>KodeGo</title>
   </head>
 
   <body>
     <header class="header">
       <div class="container">
-        <!--<input type="checkbox" id="check">
-        <label for="check">
-          <i class="fas fa-bars" id="btn"></i>
-          <i class="fas fa-times" id="cancel"></i>
-        </label>-->
-        <img src="assets/images/kodego-large.svg" alt="KodeGo Logo" />
-        <div class="header__user-links">
-          <a href="#" class="header__sign-in">Sign In</a>
-          <a href="#" class="header__apply">Apply Now</a>
-        </div>
+        <img
+          class="logo"
+          src="assets/images/kodego-large.svg"
+          alt="KodeGo Logo"
+        />
+        <button>
+          <img src="assets/images/hamburger.svg" class="img-fluid" />
+        </button>
         <nav class="header__nav">
-          <ul>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">How It Works</a></li>
-            <li><a href="#">Courses</a></li>
-            <li><a href="#">Partners</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">FAQ</a></li>
+          <ul class="nav_navbar">
+            <li><a class="nav-links" href="#">About Us</a></li>
+            <li><a class="nav-links" href="#">How It Works</a></li>
+            <li><a class="nav-links" href="#">Courses</a></li>
+            <li><a class="nav-links" href="#">Partners</a></li>
+            <li><a class="nav-links" href="#">Blog</a></li>
+            <li><a class="nav-links" href="#">Careers</a></li>
+            <li><a class="nav-links" href="#">FAQ</a></li>
+            <li class="header__auth-links">
+              <a href="#" class="header__sign-in">Sign In</a>
+              <a href="#" class="header__apply">Apply Now</a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -37,29 +42,32 @@
 
     <!-- Section Banner -->
     <section class="hero">
-      <div class="hero__container container">
-        <div class="hero__text-content">
-            <h1 class="hero__heading">
-              We dont' just teach code, we produce top talent.
-            </h1>
-            <p class="hero__text">
-              Learn essential tech skills with KodeGo’s online bootcamps and
-              land your dream career in as fast as 12 weeks.
-            </p>
-            <a class="btn btn--primary btn--wide" href="#">See Courses</a>
-        </div>
+      <div class="hero__container">
+        <div class="hero__heading-container">
+          <div class="hero__text-content">
+              <h1 class="hero__heading">
+                We dont' just teach code, we produce top talent.
+              </h1>
+              <p class="hero__text">
+                Learn essential tech skills with KodeGo’s online bootcamps and
+                land your dream career in as fast as 12 weeks.
+              </p>
+              <a class="btn btn--primary btn--wide" href="#">See Courses</a>
+          </div>
 
-        <div class="hero__image-container">
-          <img
-            class="hero__image"
-            src="assets/images/banner.png"
-            alt="Kodego Banner Image"
-          />
+            <div class="hero__image-container">
+              <img
+                class="hero__image"
+                src="assets/images/banner.png"
+                alt="Kodego Banner Image"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Section Trusted Partners -->
+    <!-- Section Trusted Partners 
     <section class="partners">
       <div class="partners__container">
         <div class="partners__row">
@@ -69,6 +77,8 @@
         </div>
       </div>
     </section>
+    -->
+
     <script src="bundled.js"></script>
   </body>
 </html>
