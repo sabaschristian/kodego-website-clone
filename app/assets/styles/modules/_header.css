@@ -4,7 +4,12 @@
     box-shadow: 0 8px 24px 0 rgb(0 0 0 / 15%) !important;
 
     .logo {
-        width: 188px;
+        width: 80%;
+    }
+
+    img {
+        vertical-align: middle;
+        border-style: none;
     }
 
     button {
@@ -19,14 +24,14 @@
         float: right;
     }
 
-    &__nav {
-        display: flex;
-    }
-
     .nav_navbar {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
         padding: 0;
         list-style: none;
         text-decoration: none;
+        align-items: center;
     }
 
     .nav-links {
@@ -34,21 +39,32 @@
         padding: 8px;
         margin: 0;
         color: $mainBlue;
+        font-weight: 700;
     }
     li {
         display: inline-block;
     }
 
+    a {
+        margin-right: 16px;
+    }
+
+    &__nav {
+        display: flex;
+    }
+
     &__sign-in, &__apply {
         margin: 0 16px;
         padding: 16px;
+        align-items: center;
+        height: 56px;
+        display: flex;
     }
 
-    &__auth-links{
+    .auth-links {
         display: flex;
+        padding: 0;
         flex-direction: row;
-        justify-content: center;
-        align-items: center;
     }
 
     &__sign-in {
@@ -60,5 +76,18 @@
         background: $mainGreen;
         border-radius: 0.3em;
     }
+}
 
+@media (max-width: 1310px) {
+    .header {
+
+        a {
+           align-items: center;
+        }
+
+        .nav-links {
+            display: flex;
+        }
+
+    }
 }
